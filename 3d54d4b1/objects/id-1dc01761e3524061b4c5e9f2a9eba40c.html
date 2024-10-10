@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Deployment on  Cloud</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Deployment on  Cloud</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-829734f0447540c08965ef57330c29ce.html" target="element"> Containers Infrastructure Solutions Catalogue </a> </td>
+											    <td> <a href="../elements/id-829734f0447540c08965ef57330c29ce.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-24dd80d9962b40e8885254779acf5625.html" target="element"> Azure Kubernetes Service </a> </td>
+													    <td> <a href="../elements/id-24dd80d9962b40e8885254779acf5625.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-6d6127221ec9416b897dae8eff9123f7.html" target="element"> Azure Container Registry </a> </td>
+													    <td> <a href="../elements/id-6d6127221ec9416b897dae8eff9123f7.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-15a1a12ac79a4b19906717503e9efae6.html" target="element"> Container </a> </td>
+											    <td> <a href="../elements/id-15a1a12ac79a4b19906717503e9efae6.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-411e1a2ab572487ebaeeb20ba7c62daa.html" target="element"> Container Registry </a> </td>
+											    <td> <a href="../elements/id-411e1a2ab572487ebaeeb20ba7c62daa.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-d4a55641df91479bba722e2cec181175.html" target="element"> LWM2M IoT Agent Image </a> </td>
+													    <td> <a href="../elements/id-d4a55641df91479bba722e2cec181175.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-ccbc9f5d36524fa3b51db8fdb4a08b4a.html" target="element"> Keycloak Image </a> </td>
+													    <td> <a href="../elements/id-ccbc9f5d36524fa3b51db8fdb4a08b4a.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0f161e12341c4abfa0cfde189a0ea0b1.html" target="element"> IoT Agent OPC-UA Image </a> </td>
+													    <td> <a href="../elements/id-0f161e12341c4abfa0cfde189a0ea0b1.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-6239dd19d1f84e68a2f72ac6922b9188.html" target="element"> IoT Agent Library Image </a> </td>
+													    <td> <a href="../elements/id-6239dd19d1f84e68a2f72ac6922b9188.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-b8bb9753118a4a2ab03bbe74e6d325aa.html" target="element"> Providers Data Aggregation Image </a> </td>
+													    <td> <a href="../elements/id-b8bb9753118a4a2ab03bbe74e6d325aa.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0a390246dceb4f3ab9b7dfe87447c4ba.html" target="element"> Scorpio Image </a> </td>
+													    <td> <a href="../elements/id-0a390246dceb4f3ab9b7dfe87447c4ba.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-4d253064ae36426e96079fa0c5db04ab.html" target="element"> Trusted Issuers List Image </a> </td>
+													    <td> <a href="../elements/id-4d253064ae36426e96079fa0c5db04ab.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-b66cea6910ab44258aefbb1524369d64.html" target="element"> Credentials Config Service Image </a> </td>
+													    <td> <a href="../elements/id-b66cea6910ab44258aefbb1524369d64.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-094fc0e20605469992de6a55fb791f96.html" target="element"> APISIX Image </a> </td>
+													    <td> <a href="../elements/id-094fc0e20605469992de6a55fb791f96.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-c3c0f009782b42168dcac127211ccd0b.html" target="element"> ODRL PAP Image </a> </td>
+													    <td> <a href="../elements/id-c3c0f009782b42168dcac127211ccd0b.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0748edee3817466bacb63bdbe40a3dc6.html" target="element"> TMforum API Image </a> </td>
+													    <td> <a href="../elements/id-0748edee3817466bacb63bdbe40a3dc6.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-f6a940c3c959418aabdbbff04ad10feb.html" target="element"> VCVerifier Image </a> </td>
+													    <td> <a href="../elements/id-f6a940c3c959418aabdbbff04ad10feb.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-051facc5a6a24197adaea5f0f21e78ba.html" target="element"> Contract Management Image </a> </td>
+													    <td> <a href="../elements/id-051facc5a6a24197adaea5f0f21e78ba.html" target="element" class="i18n-elementtype-SystemSoftware">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-bafd05ccecc348c48d2da61b0cc09c9e.html" target="element"> Containers Manager </a> </td>
+											    <td> <a href="../elements/id-bafd05ccecc348c48d2da61b0cc09c9e.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-f77291494f404eff98210be9036378c7.html" target="element"> Providers Data Aggregation </a> </td>
+													    <td> <a href="../elements/id-f77291494f404eff98210be9036378c7.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-1ec4a3e7e3004fa5a3cc99dff39ec7f8.html" target="element"> Fiware DataSpace Connector </a> </td>
+											    <td> <a href="../elements/id-1ec4a3e7e3004fa5a3cc99dff39ec7f8.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-869aed802dbb4a0d8b36a75a0a76f637.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-869aed802dbb4a0d8b36a75a0a76f637.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-829734f0447540c08965ef57330c29ce.html" target="element"> Containers Infrastructure Solutions Catalogue </a> </td>
+																		<td> <a href="../elements/id-24dd80d9962b40e8885254779acf5625.html" target="element"> Azure Kubernetes Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3639add9710c43fc9103a8185b35f2d0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3639add9710c43fc9103a8185b35f2d0.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-829734f0447540c08965ef57330c29ce.html" target="element"> Containers Infrastructure Solutions Catalogue </a> </td>
+																		<td> <a href="../elements/id-6d6127221ec9416b897dae8eff9123f7.html" target="element"> Azure Container Registry </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-66b92839e3eb49419cb8c6e146353441.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-66b92839e3eb49419cb8c6e146353441.html" target="element" class="i18n-elementtype-ServingRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-24dd80d9962b40e8885254779acf5625.html" target="element"> Azure Kubernetes Service </a> </td>
+																				<td> <a href="../elements/id-bafd05ccecc348c48d2da61b0cc09c9e.html" target="element"> Containers Manager </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-7744e3d800b84d1f9f5ecce456405e79.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-7744e3d800b84d1f9f5ecce456405e79.html" target="element" class="i18n-elementtype-ServingRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-6d6127221ec9416b897dae8eff9123f7.html" target="element"> Azure Container Registry </a> </td>
+																				<td> <a href="../elements/id-411e1a2ab572487ebaeeb20ba7c62daa.html" target="element"> Container Registry </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-9d4e640b22a24ae0818d8b7b91d054b5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9d4e640b22a24ae0818d8b7b91d054b5.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-15a1a12ac79a4b19906717503e9efae6.html" target="element"> Container </a> </td>
+																		<td> <a href="../elements/id-d4a55641df91479bba722e2cec181175.html" target="element"> LWM2M IoT Agent Image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e321bbe1f8ea45b58fffdcddbc6d30bd.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e321bbe1f8ea45b58fffdcddbc6d30bd.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-15a1a12ac79a4b19906717503e9efae6.html" target="element"> Container </a> </td>
+																		<td> <a href="../elements/id-0f161e12341c4abfa0cfde189a0ea0b1.html" target="element"> IoT Agent OPC-UA Image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-03143ecfc3724a43aedeff6d856d8946.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-03143ecfc3724a43aedeff6d856d8946.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-15a1a12ac79a4b19906717503e9efae6.html" target="element"> Container </a> </td>
+																		<td> <a href="../elements/id-6239dd19d1f84e68a2f72ac6922b9188.html" target="element"> IoT Agent Library Image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-bfb33ef3de3d49bea8a56234b4f057eb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bfb33ef3de3d49bea8a56234b4f057eb.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-15a1a12ac79a4b19906717503e9efae6.html" target="element"> Container </a> </td>
+																		<td> <a href="../elements/id-ccbc9f5d36524fa3b51db8fdb4a08b4a.html" target="element"> Keycloak Image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9d47458e3b6a468e987812f84b159532.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9d47458e3b6a468e987812f84b159532.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-15a1a12ac79a4b19906717503e9efae6.html" target="element"> Container </a> </td>
+																		<td> <a href="../elements/id-094fc0e20605469992de6a55fb791f96.html" target="element"> APISIX Image </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-17caec1e24d343c7880e7380c558cbea.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-17caec1e24d343c7880e7380c558cbea.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-094fc0e20605469992de6a55fb791f96.html" target="element"> APISIX Image </a> </td>
+																				<td> <a href="../elements/id-9d61bc0a4b9148519ff59f59f5c5cf78.html" target="element"> API Enablers </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-f9670cfb699d467eaa2251b0bce04090.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f9670cfb699d467eaa2251b0bce04090.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bafd05ccecc348c48d2da61b0cc09c9e.html" target="element"> Containers Manager </a> </td>
+																		<td> <a href="../elements/id-e371b3fc339144778f0a30935cd3a1b1.html" target="element"> Data Management Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-dd1218262d644c9ea43b8ae23a1fec6b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dd1218262d644c9ea43b8ae23a1fec6b.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bafd05ccecc348c48d2da61b0cc09c9e.html" target="element"> Containers Manager </a> </td>
+																		<td> <a href="../elements/id-9d61bc0a4b9148519ff59f59f5c5cf78.html" target="element"> API Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-7dc1eadea9d84e85bdbe3aaf6099f5b3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7dc1eadea9d84e85bdbe3aaf6099f5b3.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bafd05ccecc348c48d2da61b0cc09c9e.html" target="element"> Containers Manager </a> </td>
+																		<td> <a href="../elements/id-d0670d68408a403fa4b09848e5532147.html" target="element"> Dataspace Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b2f29f61f2fe4d778c000774a1da7c52.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b2f29f61f2fe4d778c000774a1da7c52.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bafd05ccecc348c48d2da61b0cc09c9e.html" target="element"> Containers Manager </a> </td>
+																		<td> <a href="../elements/id-da47544a7f534fdea7d89a009f998526.html" target="element"> Identification and Access Enablers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-468c60750949448c88acfae876a1bea3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-468c60750949448c88acfae876a1bea3.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bafd05ccecc348c48d2da61b0cc09c9e.html" target="element"> Containers Manager </a> </td>
+																		<td> <a href="../elements/id-f77291494f404eff98210be9036378c7.html" target="element"> Providers Data Aggregation </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-ac9ee591abe544fea339a8546fc13103.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-ac9ee591abe544fea339a8546fc13103.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-f77291494f404eff98210be9036378c7.html" target="element"> Providers Data Aggregation </a> </td>
+																				<td> <a href="../elements/id-5fc370ebab0f455f84a2d3dd5131bf4a.html" target="element"> Providers Data Aggregation </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-c12cb804f26b4397939bb246110328f1.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-c12cb804f26b4397939bb246110328f1.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-f77291494f404eff98210be9036378c7.html" target="element"> Providers Data Aggregation </a> </td>
+																				<td> <a href="../elements/id-b8bb9753118a4a2ab03bbe74e6d325aa.html" target="element"> Providers Data Aggregation Image </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-ea823deaaec347e086349f81234c4a43.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ea823deaaec347e086349f81234c4a43.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1ec4a3e7e3004fa5a3cc99dff39ec7f8.html" target="element"> Fiware DataSpace Connector </a> </td>
+																		<td> <a href="../elements/id-ccbc9f5d36524fa3b51db8fdb4a08b4a.html" target="element"> Keycloak Image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-0d0528a7c08644d9b9a0e88de8f4d9f3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0d0528a7c08644d9b9a0e88de8f4d9f3.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1ec4a3e7e3004fa5a3cc99dff39ec7f8.html" target="element"> Fiware DataSpace Connector </a> </td>
+																		<td> <a href="../elements/id-0a390246dceb4f3ab9b7dfe87447c4ba.html" target="element"> Scorpio Image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8445d1508c904a82b80a4730fc93e6ad.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8445d1508c904a82b80a4730fc93e6ad.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1ec4a3e7e3004fa5a3cc99dff39ec7f8.html" target="element"> Fiware DataSpace Connector </a> </td>
+																		<td> <a href="../elements/id-4d253064ae36426e96079fa0c5db04ab.html" target="element"> Trusted Issuers List Image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-fd70cf9bdd02446ab0dcb0d06386601c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fd70cf9bdd02446ab0dcb0d06386601c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1ec4a3e7e3004fa5a3cc99dff39ec7f8.html" target="element"> Fiware DataSpace Connector </a> </td>
+																		<td> <a href="../elements/id-094fc0e20605469992de6a55fb791f96.html" target="element"> APISIX Image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5d821e1df077416fb39da8dc4694edd1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5d821e1df077416fb39da8dc4694edd1.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1ec4a3e7e3004fa5a3cc99dff39ec7f8.html" target="element"> Fiware DataSpace Connector </a> </td>
+																		<td> <a href="../elements/id-b66cea6910ab44258aefbb1524369d64.html" target="element"> Credentials Config Service Image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-271d56ca07264e9d8fc4d35a7404c434.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-271d56ca07264e9d8fc4d35a7404c434.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1ec4a3e7e3004fa5a3cc99dff39ec7f8.html" target="element"> Fiware DataSpace Connector </a> </td>
+																		<td> <a href="../elements/id-f6a940c3c959418aabdbbff04ad10feb.html" target="element"> VCVerifier Image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e3092163f58b4817b1e121cf0e5e7f82.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e3092163f58b4817b1e121cf0e5e7f82.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1ec4a3e7e3004fa5a3cc99dff39ec7f8.html" target="element"> Fiware DataSpace Connector </a> </td>
+																		<td> <a href="../elements/id-c3c0f009782b42168dcac127211ccd0b.html" target="element"> ODRL PAP Image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-20609658c8bd4246ae17789e7f4a69ef.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-20609658c8bd4246ae17789e7f4a69ef.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1ec4a3e7e3004fa5a3cc99dff39ec7f8.html" target="element"> Fiware DataSpace Connector </a> </td>
+																		<td> <a href="../elements/id-0748edee3817466bacb63bdbe40a3dc6.html" target="element"> TMforum API Image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a48da5f39029460cb5a5cc2a18d17079.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a48da5f39029460cb5a5cc2a18d17079.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1ec4a3e7e3004fa5a3cc99dff39ec7f8.html" target="element"> Fiware DataSpace Connector </a> </td>
+																		<td> <a href="../elements/id-051facc5a6a24197adaea5f0f21e78ba.html" target="element"> Contract Management Image </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

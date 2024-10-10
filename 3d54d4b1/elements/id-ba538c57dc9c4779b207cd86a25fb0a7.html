@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Metadata</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Metadata</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DataObject"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DataObject" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Definition: Metadata ABB is a Data Object providing information about one or more aspects of the data
+
+Source: W3C
+
+Source reference: www.w3.org/Metadata/
+
+Last modification: 2024-01-28
+
+Identifier: http://data.europa.eu/dr8/MetadataDataObject
+
+LOST view: Semantic view
+
+EIRA concept: eira:ArchitectureBuildingBlock
+
+ABB name: eira:MetadataDataObject
+
+Example: The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): https://data.europa.eu/en
+
+Interoperability Saliency: The Metadata ABB is a key interoperability enabler (*) for behavioural interoperability by enabling data discoverability and reuse enhancing the delivery and collaboration between digital public services.
+
+Interoperability Dimension: Behavioral IoP
+
+Viewpoint: Key Interoperability Enablers viewpoint
+
+Additional identifier: http://data.europa.eu/dr8/MetadataDataObject
+
+EIF Layer: Semantic
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/MetadataDataObject</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:MetadataDataObject</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2024-01-28</td></tr><tr><td>eira:synonym</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Metadata ABB is a Data Object providing information about one or more aspects of the data</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">W3C</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">www.w3.org/Metadata/</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): https://data.europa.eu/en</td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Metadata ABB is a key interoperability enabler (*) for behavioural interoperability by enabling data discoverability and reuse enhancing the delivery and collaboration between digital public services.</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Behavioral IoP</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Semantic view</td></tr><tr><td>eira:viewpoint</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Key Interoperability Enablers viewpoint</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/MetadataDataObject</td></tr><tr><td>eira:eifLayer</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Semantic</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-29fa39585bb64cdd8a1309ed4fda64fb">
+																	<td><a href="../views/id-29fa39585bb64cdd8a1309ed4fda64fb.html" target="view" title="SV - Metadata [Traceability]"> SV - Metadata [Traceability] </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-13cfc7d1">
+																	<td><a href="../views/13cfc7d1.html" target="view" title="Semantic view"> Semantic view </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-2fb14895243c4b1bad2fe51de42f5d82.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-ba538c57dc9c4779b207cd86a25fb0a7.html" target="element"> Metadata</a></td>
+											<td><a href="../elements/id-eb5c2816be204b3f8c205d14cc119f60.html" target="element"> Business Agnostic Business Information Base</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-cb41c3e50972485fb4c5feca9efd8c9e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-ba538c57dc9c4779b207cd86a25fb0a7.html" target="element"> Metadata</a></td>
+											<td><a href="../elements/id-5076af5b165f4ab1b7755cf1675771c9.html" target="element"> SMDS Information Base</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5c3b1ffb0f114ccb8a89ca10d1ce051d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-ba538c57dc9c4779b207cd86a25fb0a7.html" target="element"> Metadata</a></td>
+											<td><a href="../elements/id-57e4b4e8114d45719b6012e5cacc9dec.html" target="element"> Data</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-05cce3fa4ef64f71b7d29f0ae57a0a02.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-2ee40e003b9b4d8d951ca6a543ff969c.html" target="element"> Data Mapping</a></td>
+											<td><a href="../elements/id-ba538c57dc9c4779b207cd86a25fb0a7.html" target="element"> Metadata</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ccb32b93be3a4f5cbbaccbad724310dc.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-95c4fd2a96334021b6a6dba13dbf03fa.html" target="element"> Metadata Catalogue</a></td>
+											<td><a href="../elements/id-ba538c57dc9c4779b207cd86a25fb0a7.html" target="element"> Metadata</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-d9a20fe94c174d29a1c8ac4f5bbce480.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-bd6037253535490c966ee366756914f9.html" target="element"> Semantic Functional content</a></td>
+											<td><a href="../elements/id-ba538c57dc9c4779b207cd86a25fb0a7.html" target="element"> Metadata</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7b388ab943a94ed5bc14f84e0b1421ce.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-06a7340bdc90426195306d7784f03a5c.html" target="element"> Business Agnostic Data Models Solutions</a></td>
+											<td><a href="../elements/id-ba538c57dc9c4779b207cd86a25fb0a7.html" target="element"> Metadata</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ac4f435ecf9c442ab22868bf8c9a4b9e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-df31b02bdff94fd69082922b3a784e2c.html" target="element"> SMDS Data Models Solutions</a></td>
+											<td><a href="../elements/id-ba538c57dc9c4779b207cd86a25fb0a7.html" target="element"> Metadata</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ddde6b889fd446b9a18ecf2f886d384a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-48c646dabc2a4dbb947ba428f422da2b.html" target="element"> Context Broker NGSI-LD Data Model</a></td>
+											<td><a href="../elements/id-ba538c57dc9c4779b207cd86a25fb0a7.html" target="element"> Metadata</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f656931003914857b922e63a5585058d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-b93c5f3a8979489c85d75d236aec0b19.html" target="element"> Business Agnostic High Value Datasets Catalogue</a></td>
+											<td><a href="../elements/id-ba538c57dc9c4779b207cd86a25fb0a7.html" target="element"> Metadata</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8eb2e371bd4046ce9c698047a220f651.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-d898a28e59fd40c3adee757eed03c005.html" target="element"> Data Model</a></td>
+											<td><a href="../elements/id-ba538c57dc9c4779b207cd86a25fb0a7.html" target="element"> Metadata</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
